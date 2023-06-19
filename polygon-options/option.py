@@ -5,7 +5,7 @@ from scipy.optimize import fsolve
 from time import sleep
 import polygon
 
-client_ID = '2ufZ2jOxhppcuNXiPM3XOuG3WiVizkVs'
+client_ID = 'INSERT API KEY HERE'
 
 reference_client = polygon.ReferenceClient(client_ID)
 stocks_client = polygon.StocksClient(client_ID)
