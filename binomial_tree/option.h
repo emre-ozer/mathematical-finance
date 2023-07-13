@@ -1,6 +1,3 @@
-/*
-IS THIS THE DEFINITIVE OPTION CLASS????
-*/
 #include <iostream>
 #include <math.h>
 #include <string>
