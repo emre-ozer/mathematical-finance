@@ -1,5 +1,3 @@
-#include <iostream>
-#include <math.h>
 #include "option.h"
 
 using namespace std;
