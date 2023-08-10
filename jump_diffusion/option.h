@@ -4,10 +4,10 @@
 
 using namespace std;
 
-int factorial(int n) {
+double factorial(int n) {
     if (n == 0) { return 1; }
     else {
-        int res = 1;
+        double res = 1;
         for (int i = 1; i <= n; i++) {
             res *= i;
         }
@@ -32,7 +32,7 @@ class Option {
     double analytic_price();
     double payoff(double);
     double update_rule(double,double,double);
-    double analytic_jump_diffusion(double,double,double,int=10);
+    double analytic_jump_diffusion(double,double,double,int=100);
     double analytic_vega();
     double implied_volatility(double,double=0.2);
 };
